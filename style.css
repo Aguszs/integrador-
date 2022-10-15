@@ -1,0 +1,517 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+justify-content: space-between;    
+background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+position: fixed;
+width: 100%;
+height: 80px;
+top: 0;
+z-index: 1;
+}
+.logos img{
+    height: 50px;
+   padding-left: 20px;
+   
+   
+   justify-content: center;
+}
+.logos h2{
+   
+    padding-left: 15px;
+    padding-top: 10px;
+    color:#2980B9;
+}
+
+.logos {
+    display: flex;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    gap: 80px;
+    margin-right: 40px;
+}
+header a{
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    padding-left: 34%;
+    padding-top: 130px;
+    font-size: 53px;
+    font-family: 'Montserrat', sans-serif;
+    
+   font-weight: 1000;
+   width: 300px;
+  
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent;
+ 
+}
+span {
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width:63vh;
+color: rgb(106, 218, 248);
+    animation: typing 3s steps(12), blink .5s infinite step-end alternate-reverse ;
+    overflow:hidden;
+   
+    }
+    
+    @keyFrames typing {
+    
+    from { width: 0}
+    }
+    
+    @keyFrames blink {
+     50% { border-color: transparent}
+     
+    }
+  
+   
+   
+
+
+.navbar-list a:hover{
+  
+    color: white;
+    font-family:  serif;
+    transform: scale(1.2);
+    transition: all ease 0.3s;
+
+}
+
+.menu{
+    font-size: 20px;
+    color: black;
+    font-family:  'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    
+
+}
+.nosotros h2{
+    font-size: 50px;
+    padding-bottom: 30px;
+    color:rgba(245, 245, 245, 0.786);
+    font-family: 'Josefin Sans';
+}
+.nosotros{
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+    padding: 100px;
+
+}
+.nosotros p{
+    font-size: 35px;
+    padding: 10px;
+    color:#2980B9;
+    text-align: center;
+    font-family: 'Josefin Sans';
+    
+    
+}
+
+main{
+    background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9) ;
+    /*background-image: url(./pexels-cottonbro-6529216.jpg);
+   background-size: 400vh 400vh;
+   background-repeat: no-repeat;
+   backface-visibility: initial;*/
+    
+}
+
+section{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+    justify-content: center;
+    padding: 15px;
+    gap: 100px;
+    
+}
+.sections2{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+h3{
+    font-size: 46px;
+    font-family:  serif;
+    text-align: center;
+    margin: 50px;
+    color:rgba(245, 245, 245, 0.786);
+}
+
+section p{
+    width: 400px;
+    margin:auto;
+    text-align: center;
+    margin: 50px;
+    font-size: 50px;
+    font-weight: 700;
+    font-family:   'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#2980B9;
+
+}
+
+
+
+
+
+
+
+section img{
+    height: 650px;
+    width: 500px;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+
+h4{
+    margin: 10px;
+    font-family: serif;
+    font-size: 20px;
+}
+.producto{
+   text-align: center;
+    flex-wrap: wrap;
+   justify-content: center;
+    margin: 25px;
+    border-radius: 15px;
+   height: 400px;
+   width: 350px;
+    box-shadow: 0 0 10px 0  black;
+    display: flex;
+}
+.producto:hover{
+    transform: scale(1.2);
+    transition: all ease 0.3s;
+}
+.producto img{
+    height: 150px;
+    width: 170px;
+    padding: 5px;
+  
+}
+
+.info-bajo{
+    
+    font-family:sans-serif;
+    font-size: 20px;
+    margin: 5px;
+    gap: 200px;
+    
+    
+}
+.opciones {
+    margin-top: 20px;
+    font-size: 20px;
+}
+.button{
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: white;
+    font-weight: 600;
+    margin-top: 45px;
+
+}
+.button:hover{
+    cursor: pointer;
+}
+
+select{
+    height: 40px;
+    width: 170px;
+    font-size: 18px;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.navbar{
+    display: flex;
+}
+.navbar i{
+    font-size: 36px;
+    display: none;
+}
+
+.mapa{
+    overflow:hidden;
+    padding-bottom:400px;
+    position:relative;
+    height:0;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    
+}
+
+
+.turnos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    padding: 15px;
+    font-weight: 600;
+    color:#2980B9;
+    
+    
+}
+.turnos input{
+    font-size: 20px;
+    height: 25px;
+    padding: 20px;
+    border-radius: 15px;
+    gap: 5px;
+    
+}
+.general{
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+    margin-top: 40px;
+    
+}
+.contacto{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 120px;
+}
+h4{
+    font-size: 30px;
+    
+    text-align: center;
+    align-items: center;
+    color:rgba(245, 245, 245, 0.786);
+}
+
+.contacto li{
+list-style-type: none;
+padding-top: 10px;
+font-size: 20px;
+align-items: center;
+text-align: center;
+color:rgba(245, 245, 245, 0.786);
+
+
+}
+
+
+
+hr{
+    width: 60%;
+    height: 3px;
+    
+  align-items:center;
+    background-color: black;
+    text-align: center;
+    margin-left: 355px;
+    margin-top: 60px;
+    
+    
+
+}
+
+footer{
+    height: 100px;
+    background: linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9);
+}
+
+footer ul{
+    display: flex;
+    gap: 200px;
+    
+  
+    padding-top: 40px;
+    list-style-type: none;
+    font-size: 20px;
+    color:rgba(1, 1, 1, 0.996);
+
+
+}
+.footer li{
+    margin: auto;
+}
+
+footer li:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+#toggle-menu{
+    display: none;
+}
+
+
+@media (max-width:992px){
+
+.navbar-list{
+gap: 30px;
+}
+
+
+
+
+    section{
+        text-align: center;
+        width: 100%;
+        align-items: center;
+    }
+
+    h1{
+        display: block;
+        width: 300vh;
+        padding:auto;
+        
+       
+        
+    }
+section p{
+    max-width: 80%;
+    font-size: 26px;
+    text-align: center;
+    align-items: center;
+   margin-left: 160px;
+   
+    
+
+}
+
+
+section img{
+    display: none;
+}
+
+.turnos{
+    
+    align-items: center;
+}
+hr{
+    margin: auto;
+    margin-top: 40px;
+}
+.general{
+    display: block;
+    flex-direction: column;
+    
+}
+.contacto{
+    padding-top: 0;
+    margin-bottom: 50px;
+    text-align: center;
+  
+    
+
+}
+.contacto li{
+    font-size: 23px;
+    text-align: center;
+    
+    
+}
+
+.mapa{
+   padding-bottom: 300px;
+   
+    width: 500px;
+    margin: auto;
+}
+footer li {
+    margin: auto;
+    padding-top: 10px;
+    
+}
+
+
+}
+
+@media (max-width:576px){
+
+.logos{
+    margin: auto;
+}
+h1{
+    width:50vh;
+    padding-left: 200px;
+
+    text-align: center;
+}
+
+section p{
+    margin: auto;
+    padding-left: 100px;
+}
+h3{
+    padding: 10px;
+    margin-left: 90px;
+}
+
+
+    .navbar ul{
+    background-color: white;
+    width: 100%;
+    height: calc(100vh - 80px);
+    position: absolute;
+    top: 80px;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(200%);
+    transition: all 0.4s ease-in-out;
+}
+.navbar i {
+    display: block;
+
+}
+#toggle-menu:checked + .navbar-list{
+transform: translateX(0%);
+transition: all 0.4s ease-in;
+
+}
+
+section p{
+    max-width: 100%
+
+}
+.producto{
+    align-items: center;
+    margin-left:50px;
+}
+.footer li  {
+margin: auto;
+font-size: 10px;
+text-align: center;
+justify-content: center;
+    
+}
+
+
+}
