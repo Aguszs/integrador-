@@ -46,40 +46,20 @@ header a{
 }
 h1{
     text-align: center;
-    padding-left: 34%;
-    padding-top: 130px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
     font-size: 53px;
     font-family: 'Montserrat', sans-serif;
-    
+    display: flex;
    font-weight: 1000;
-   width: 350px;
-  
-   background-clip: text;
-   -webkit-background-clip: text;
-   color: transparent;
+   
+   
+   color:#2980B9;
  
 }
-span {
-    display: block;
-    font-family: monospace;
-    white-space: nowrap;
-    border-right: 4px solid;
-    width:63vh;
-color: rgb(106, 218, 248);
-    animation: typing 3s steps(12), blink .5s infinite step-end alternate-reverse ;
-    overflow:hidden;
+
    
-    }
-    
-    @keyFrames typing {
-    
-    from { width: 0}
-    }
-    
-    @keyFrames blink {
-     50% { border-color: transparent}
-     
-    }
   
    
    
@@ -126,10 +106,7 @@ color: rgb(106, 218, 248);
 
 main{
     background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9) ;
-    /*background-image: url(./pexels-cottonbro-6529216.jpg);
-   background-size: 400vh 400vh;
-   background-repeat: no-repeat;
-   backface-visibility: initial;*/
+    
     
 }
 
@@ -325,8 +302,7 @@ hr{
   align-items:center;
     background-color: black;
     text-align: center;
-    margin-left: 355px;
-    margin-top: 60px;
+    margin: auto;
     
     
 
@@ -365,3 +341,172 @@ footer li:hover{
 
 
 
+#toggle-menu{
+    display: none;
+}
+
+
+@media (max-width:992px){
+
+
+header{
+    max-width: 992px;
+}
+
+
+.navbar-list{
+gap: 30px;
+}
+
+
+
+
+    section{
+        text-align: center;
+        width: 100%;
+        align-items: center;
+    }
+
+    h1{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding-right: 150vh;
+        margin:auto;
+        
+       
+        
+    }
+section p{
+    max-width: 80%;
+    font-size: 26px;
+    text-align: center;
+    align-items: center;
+   
+   
+    
+
+}
+
+
+section img{
+    display: none;
+}
+
+.turnos{
+    
+    align-items: center;
+}
+hr{
+    margin: auto;
+    margin-top: 40px;
+}
+.general{
+    display: block;
+    flex-direction: column;
+    
+}
+.contacto{
+    padding-top: 0;
+    margin-bottom: 50px;
+    text-align: center;
+  
+    
+
+}
+.contacto li{
+    font-size: 23px;
+    text-align: center;
+    
+    
+}
+
+.mapa{
+   padding-bottom: 300px;
+   
+    width: 500px;
+    margin: auto;
+}
+footer li {
+    margin: auto;
+    padding-top: 10px;
+    
+}
+
+
+}
+
+@media (max-width:576px){
+
+header{
+    max-width: 576px;
+}
+
+
+.logos{
+    margin: auto;
+    
+}
+h1{
+    
+   padding-left: 19rem;
+  
+   margin: auto;
+}
+
+section p{
+    margin: auto;
+    padding-right:80px ;
+    text-align: center;
+}
+.nosotros p{
+    margin: auto;
+    text-align: center;
+}
+h3{
+    padding: 10px;
+    margin-left: 90px;
+}
+
+
+    .navbar ul{
+    background-color: white;
+    width: 100%;
+    height: calc(100vh - 80px);
+    position: absolute;
+    top: 80px;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(200%);
+    transition: all 0.4s ease-in-out;
+}
+.navbar i {
+    display: block;
+
+}
+#toggle-menu:checked + .navbar-list{
+transform: translateX(0%);
+transition: all 0.4s ease-in;
+
+}
+
+section p{
+    max-width: 100%
+
+}
+.producto{
+    align-items: center;
+    margin-left:50px;
+}
+.footer li  {
+margin: auto;
+font-size: 10px;
+text-align: center;
+justify-content: center;
+    
+}
+
+
+}
