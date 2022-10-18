@@ -2,149 +2,210 @@
     display: none;
 }
 
-
 @media (max-width:992px){
 
-.navbar-list{
-gap: 30px;
-}
 
-
-
-
-    section{
-        text-align: center;
+    header{
         width: 100%;
-        align-items: center;
     }
-
-    h1{
-        display: block;
-        width: 300vh;
-        padding:auto;
-        
+    
+    
+    .navbar-list{
+    gap: 30px;
+    }
+    
+    
+    
+    
+        section p{
+            text-align: center;
+            width: 100%;
+            align-items: center;
+            margin: auto;
+        }
+    
+        h1 {
+           
+           align-items: center;
+           margin: auto;
+           text-align: center;
+           justify-content: center;
+           width: 50%;
+           
+          
+            
+           
+            
+        }
+    section p{
+        max-width: 80%;
+        font-size: 26px;
+        text-align: center;
+        align-items: center;
+       
        
         
+    
     }
-section p{
-    max-width: 80%;
-    font-size: 26px;
+    
+    
+    section img{
+        display: none;
+    }
+    .nosotros p{
+        margin: auto;
+        text-align: center;
+    }
+    
+    .turnos{
+        
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    hr{
+        margin: auto;
+        
+    }
+    .general{
+        display: block;
+        flex-direction: column;
+        
+    }
+    .contacto{
+        
+        flex-direction: column;
+        padding-top: 1px;
+       
+        
+    
+    }
+    .contacto li{
+        font-size: 13px;
+        gap: 5px;
+        color: black;
+       
+        
+        
+    }
+    h4{
+        color: #2980B9;
+    }
+    
+    .mapa{
+      
+       
+        width: 500px;
+        margin: auto;
+    }
+    footer li  {
+        margin: auto;
+        padding-top: 10px;
+        gap: 2px;
+        
+    }
+    footer ul{
+    gap: 10px;
+    }
+    
+    
+    }
+    
+    @media (max-width:576px){
+    
+    header{
+        width: 100%;
+    }
+    
+    
+    .logos{
+        margin: auto;
+        
+    }
+    h1{
+        font-size: 60px;
+        align-items: center;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        width: 50%;
+        
+    }
+    
+    section p{
+        text-align: center;
+        width: 80%;
+        align-items: center;
+        margin: auto;
+    }
+    .nosotros p{
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+        width: 100%;
+    }
+    h3{
+        
+        margin: auto;
+    }
+    
+    
+        .navbar ul{
+            background-color: rgb(231,248,254);
+        width: 100%;
+        height: calc(100vh - 80px);
+        position: absolute;
+        top: 80px;
+        left: 0;
+       
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(200%);
+        transition: all 0.4s ease-in-out;
+    }
+    .navbar a {
+        color: #2980B9;
+        
+    }
+    .navbar i {
+        display: block;
+        padding-right: 10px;
+    
+    }
+    #toggle-menu:checked + .navbar-list{
+    transform: translateX(0%);
+    transition: all 0.4s ease-in;
+    
+    }
+    
+    
+    .producto{
+        align-items: center;
+        margin:auto;
+        
+    }
+    .sections2{
+        gap: 50px;
+        
+    }
+    .producto:hover{
+        transform: none;
+        transition:none;
+    }
+    
+    }
+    .footer li  {
+    margin: auto;
+    font-size: 10px;
     text-align: center;
-    align-items: center;
-   margin-left: 160px;
-   
-    
-
-}
-
-
-section img{
-    display: none;
-}
-
-.turnos{
-    
-    align-items: center;
-}
-hr{
-    margin: auto;
-    margin-top: 40px;
-}
-.general{
-    display: block;
-    flex-direction: column;
-    
-}
-.contacto{
-    padding-top: 0;
-    margin-bottom: 50px;
-    text-align: center;
-  
-    
-
-}
-.contacto li{
-    font-size: 23px;
-    text-align: center;
-    
-    
-}
-
-.mapa{
-   padding-bottom: 300px;
-   
-    width: 500px;
-    margin: auto;
-}
-footer li {
-    margin: auto;
-    padding-top: 10px;
-    
-}
-
-
-}
-
-@media (max-width:576px){
-
-.logos{
-    margin: auto;
-}
-h1{
-    width:50vh;
-    margin: auto;
-
-    text-align: center;
-}
-
-section p{
-    margin: auto;
-    padding-left: 100px;
-}
-h3{
-    padding: 10px;
-    margin-left: 90px;
-}
-
-
-    .navbar ul{
-    background-color: white;
-    width: 100%;
-    height: calc(100vh - 80px);
-    position: absolute;
-    top: 80px;
-    left: 0;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    transform: translateX(200%);
-    transition: all 0.4s ease-in-out;
-}
-.navbar i {
-    display: block;
-
-}
-#toggle-menu:checked + .navbar-list{
-transform: translateX(0%);
-transition: all 0.4s ease-in;
-
-}
-
-section p{
-    max-width: 100%
-
-}
-.producto{
-    align-items: center;
-    margin-left:50px;
-}
-.footer li  {
-margin: auto;
-font-size: 10px;
-text-align: center;
-justify-content: center;
+        
+    }
     
-}
-
-
-}
+    
+    .mapa{
+        width: 400px;
+        margin: auto;
+    }
+    
+    
