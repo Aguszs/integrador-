@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head> 
     
     <meta charset="UTF-8" />
@@ -7,10 +7,9 @@
     
     content="IE=edge" />
     
-    <link rel="stylesheet" href="inicio.style.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./registro.index.html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Sitio de presentación de G.C.A. Consultorios, con información sobre tratamientos de ortodoncia, turnos y contacto.">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="mediaqueries.css">
@@ -19,13 +18,13 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Alegreya+SC:ital,wght@1,500&family=Barlow+Condensed:wght@400;600&family=Comforter+Brush&family=Josefin+Sans&family=Montserrat:ital@1&family=Red+Rose&family=Righteous&family=Silkscreen&display=swap" rel="stylesheet">
-    <title>Integrador</title>
+    <title>G.C.A. Consultorios | Ortodoncia</title>
   </head>
   <body>
     <header>
   <div class="logos">
       <img
-        src="./asstes/902-9022536_icon-tooth-in-circle-muela-logo-png (1).png"/> <h2>G.C.A Consultorios  </h2>
+        src="./asstes/902-9022536_icon-tooth-in-circle-muela-logo-png (1).png" alt="Logo de G.C.A. Consultorios"/> <h2>G.C.A Consultorios  </h2>
       </div>
    
        
@@ -34,12 +33,12 @@
         <input type="checkbox"  id="toggle-menu">
        
         <ul class="navbar-list">
-          <a href="#" class="menu"><li>Inicio</li></a>
-          <a href="#productos" class="menu"><li>Productos</li></a>
-          <a href="#start" class="menu"><li>Turnos</li></a>
-          <a href="./asstes/inicio.html" class="menu"><li>Iniciar Sesion</li></a>
-          <a href="./registro.index.html" class="menu"><li>Registrarse</li></a>
-          <a href="#contacto" class="menu"><li>Contacto</li></a>
+          <li><a href="#" class="menu">Inicio</a></li>
+          <li><a href="#productos" class="menu">Tratamientos</a></li>
+          <li><a href="#turnos" class="menu">Turnos</a></li>
+          <li><a href="./asstes/inicio.html" class="menu">Iniciar sesión</a></li>
+          <li><a href="./registro.index.html" class="menu">Registrarse</a></li>
+          <li><a href="#contacto" class="menu">Contacto</a></li>
         </ul>
     </nav>
 </header>
@@ -102,7 +101,7 @@
      </div>
      <div class="producto" >
       <div class="info-superior">
-        <h4>Tratamiento Bracket Zafiro</h3>
+        <h4>Tratamiento Bracket Zafiro</h4>
         <div class="info-medio">
           <img src="./ICE-retocado-2.png" alt="metalico">
           <div class="info-bajo">
@@ -121,14 +120,12 @@
       </div>
      </div>
     </div>
-    <h3 id="start" >Turnos</h3>
+    <h3 id="turnos">Turnos</h3>
 
     <div class="turnos">
-      <label for="start">Turnos Disponibles: </label>
+      <label for="appointment-date">Elegí una fecha como referencia:</label>
 
-<input type="date" id="start" name="trip-start"
-       value="2022-10-10"
-       min="2022-10-10" max="2022-12-31" class="turnos">
+<input type="date" id="appointment-date" name="appointment-date" class="turnos">
 
     </div>
     <hr>
@@ -137,14 +134,12 @@
     <h4 id="contacto">Contactanos:</h4>
 <ul>
   <li>📞 telefono: 3513428951</li>
-  <li>📧 Email: gra.gmail.com</li>
-  <li>🏠 Direccion: calle falsa 123</li>
-</ul>
+    </ul>
 </div>
 
 
 <div class="mapa">
-<iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d990.6304268986318!2d-64.20588460548699!3d-31.41321500083409!3m2!1i1024!2i768!4f13.1!2m1!1sconsultorio%20odontologico!5e0!3m2!1ses-419!2sar!4v1665542771378!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">Nuestra Casa</iframe>
+<iframe title="Mapa de consultorio odontológico en Córdoba" src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d990.6304268986318!2d-64.20588460548699!3d-31.41321500083409!3m2!1i1024!2i768!4f13.1!2m1!1sconsultorio%20odontologico!5e0!3m2!1ses-419!2sar!4v1665542771378!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 </div>
 </div>
